@@ -1,7 +1,9 @@
 调用方式（按顺序执行）
-python python\ai_writer.py
-python python\image_fetcher.py
-python python\render_ppt.py
+main.cpp → 主要是输出 JSON 文件
+
+python python\ai_writer.py → 输出通过 AI 优化之后 JSON 文本
+python python\image_fetcher.py → 通过 API 输出从目标网址获取到的图片
+python python\render_ppt.py → 输出通过渲染后得到的 PPT
 
 整体架构
 
