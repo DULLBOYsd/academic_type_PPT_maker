@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "_deps/pugixml-build/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

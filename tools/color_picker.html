@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>取色器 → Python RGB 元组</title>
+    <style>
+        body { font-family: sans-serif; max-width: 500px; margin: 40px auto; padding: 20px; background: #f5f5f5; }
+        h1 { font-size: 18px; color: #333; }
+        .box { background: white; padding: 18px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); margin-bottom: 14px; }
+        input[type="color"] { width: 100%; height: 70px; border: none; cursor: pointer; background: transparent; }
+        .output { font-family: monospace; font-size: 18px; padding: 12px; background: #2d2d2d; color: #4ec9b0; border-radius: 4px; user-select: all; cursor: pointer; }
+        .label { color: #888; font-size: 12px; margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.5px; }
+        .swatch { display: flex; gap: 12px; align-items: center; }
+        .preview { width: 55px; height: 55px; border-radius: 4px; border: 1px solid #ccc; flex-shrink: 0; }
+    </style>
+</head>
+<body>
+    <h1>🎨 取色 → Python 元组</h1>
+
+    <div class="box">
+        <div class="label">点击选择颜色</div>
+        <input type="color" id="picker" value="#1F4E79">
+    </div>
+
+    <div class="box">
+        <div class="label">Python 十六进制元组（点击复制）</div>
+        <div class="output" id="pyOutput" onclick="copyText(this)">(0x1F, 0x4E, 0x79)</div>
+    </div>
+
+    <div class="box">
+        <div class="label">Python 十进制元组（点击复制）</div>
+        <div class="output" id="rgbOutput" onclick="copyText(this)">(31, 78, 121)</div>
+    </div>
+
+    <div class="box">
+        <div class="label">十六进制值</div>
+        <div class="swatch">
+            <div class="preview" id="preview"></div>
+            <div class="output" id="hexOutput" style="flex:1" onclick="copyText(this)">#1F4E79</div>
+        </div>
+    </div>
+
+    <script>
+        const picker = document.getElementById('picker');
+        const pyOutput = document.getElementById('pyOutput');
+        const rgbOutput = document.getElementById('rgbOutput');
+        const hexOutput = document.getElementById('hexOutput');
+        const preview = document.getElementById('preview');
+
+        function update() {
+            const hex = picker.value.toUpperCase();
+            const r = parseInt(hex.substr(1, 2), 16);
+            const g = parseInt(hex.substr(3, 2), 16);
+            const b = parseInt(hex.substr(5, 2), 16);
+            const hexPair = (n) => '0x' + n.toString(16).toUpperCase().padStart(2, '0');
+
+            pyOutput.textContent = `(${hexPair(r)}, ${hexPair(g)}, ${hexPair(b)})`;
+            rgbOutput.textContent = `(${r}, ${g}, ${b})`;
+            hexOutput.textContent = hex;
+            preview.style.background = hex;
+        }
+
+        function copyText(el) {
+            const text = el.textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                const orig = el.textContent;
+                el.textContent = '✓ 已复制';
+                setTimeout(() => el.textContent = orig, 800);
+            });
+        }
+
+        picker.addEventListener('input', update);
+        update();
+    </script>
+</body>
+</html>

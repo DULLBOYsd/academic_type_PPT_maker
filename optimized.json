@@ -1,0 +1,270 @@
+{
+    "title": "2025 新能源战略规划",
+    "slides": [
+        {
+            "layout": "cover",
+            "title": "2025 新能源战略规划",
+            "subtitle": "领航绿色出行新纪元",
+            "image_prompt": "electric vehicle charging station future city",
+            "image_type": "search",
+            "image_placement": "background",
+            "image_path": "images\\slide_1.jpg"
+        },
+        {
+            "layout": "section",
+            "title": "第一部分",
+            "subtitle": "行业背景与机遇",
+            "image_prompt": "global new energy vehicle market analysis",
+            "image_type": "search",
+            "image_placement": "background",
+            "image_path": "images\\slide_2.jpg"
+        },
+        {
+            "layout": "timeline",
+            "title": "市场渗透率趋势",
+            "items": [
+                {
+                    "text": "2023年：全球渗透率达到 15%，初步完成市场教育",
+                    "image_prompt": "global market penetration 15 percent",
+                    "image_type": "search",
+                    "image_path": "images\\slide_3_card_1.jpg"
+                },
+                {
+                    "text": "2024年：突破 25%，基础设施建设加速",
+                    "image_prompt": "ev charging infrastructure expansion",
+                    "image_type": "search",
+                    "image_path": "images\\slide_3_card_2.jpg"
+                },
+                {
+                    "text": "2025年：目标突破 40%，进入爆发式增长期",
+                    "image_prompt": "explosive growth electric vehicles",
+                    "image_type": "search",
+                    "image_path": "images\\slide_3_card_3.jpg"
+                }
+            ],
+            "highlights": [
+                {
+                    "text": "15%",
+                    "color": "blue",
+                    "bold": true
+                },
+                {
+                    "text": "25%",
+                    "color": "green",
+                    "bold": true
+                },
+                {
+                    "text": "40%",
+                    "color": "red",
+                    "bold": true
+                }
+            ],
+            "conclusion": "市场渗透率持续加速提升"
+        },
+        {
+            "layout": "left_right",
+            "title": "竞争格局分析",
+            "bullets": [
+                "传统燃油车：品牌认知度高，但面临严苛的排放法规，转型缓慢",
+                "新能源车企：智能化体验领先，直营模式效率高，但资金压力较大"
+            ],
+            "image_prompt": "traditional vs electric vehicle competition",
+            "image_type": "search",
+            "image_placement": "right",
+            "highlights": [
+                {
+                    "text": "品牌认知度高",
+                    "color": "blue",
+                    "bold": true
+                },
+                {
+                    "text": "转型缓慢",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "text": "智能化体验领先",
+                    "color": "green",
+                    "bold": true
+                },
+                {
+                    "text": "资金压力较大",
+                    "color": "red",
+                    "bold": false
+                }
+            ],
+            "conclusion": "新能源车企需平衡创新与资金风险",
+            "image_path": "images\\slide_4.jpg"
+        },
+        {
+            "layout": "section",
+            "title": "第二部分",
+            "subtitle": "核心增长引擎",
+            "image_prompt": "business growth engine strategy",
+            "image_type": "search",
+            "image_placement": "background",
+            "image_path": "images\\slide_5.jpg"
+        },
+        {
+            "layout": "parallel_cards",
+            "title": "三大核心战役",
+            "items": [
+                {
+                    "text": "电池技术突破：研发固态电池，能量密度提升至 400Wh/kg",
+                    "image_prompt": "solid state battery research lab",
+                    "image_type": "search",
+                    "image_path": "images\\slide_6_card_1.jpg"
+                },
+                {
+                    "text": "充电网络扩张：建设 5000 座超级快充站，覆盖全国 90% 高速路网",
+                    "image_prompt": "super fast charging stations highway",
+                    "image_type": "search",
+                    "image_path": "images\\slide_6_card_2.jpg"
+                },
+                {
+                    "text": "智能驾驶落地：全系标配 L3 级辅助驾驶，高阶智驾订阅率超 30%",
+                    "image_prompt": "autonomous driving car technology",
+                    "image_type": "search",
+                    "image_path": "images\\slide_6_card_3.jpg"
+                }
+            ],
+            "highlights": [
+                {
+                    "text": "固态电池",
+                    "color": "blue",
+                    "bold": true
+                },
+                {
+                    "text": "400Wh/kg",
+                    "color": "red",
+                    "bold": true
+                },
+                {
+                    "text": "5000 座",
+                    "color": "green",
+                    "bold": true
+                },
+                {
+                    "text": "90%",
+                    "color": "orange",
+                    "bold": true
+                },
+                {
+                    "text": "L3 级",
+                    "color": "purple",
+                    "bold": true
+                }
+            ],
+            "conclusion": "技术、基建与智能三线并进"
+        },
+        {
+            "layout": "timeline",
+            "title": "研发与交付路线图",
+            "items": [
+                {
+                    "text": "第一季度：完成半固态电池冬季极寒测试",
+                    "image_prompt": "winter battery testing electric vehicle",
+                    "image_type": "search",
+                    "image_path": "images\\slide_7_card_1.jpg"
+                },
+                {
+                    "text": "第二季度：发布全新 800V 高压平台架构",
+                    "image_prompt": "800V high voltage platform launch",
+                    "image_type": "search",
+                    "image_path": "images\\slide_7_card_2.jpg"
+                },
+                {
+                    "text": "第三季度：首款 L4 级自动驾驶车型量产交付",
+                    "image_prompt": "L4 autonomous vehicle production line",
+                    "image_type": "search"
+                },
+                {
+                    "text": "第四季度：欧洲市场首批门店开业并开启交付",
+                    "image_prompt": "europe ev store opening delivery",
+                    "image_type": "search",
+                    "image_path": "images\\slide_7_card_4.jpg"
+                }
+            ],
+            "highlights": [
+                {
+                    "text": "第一季度",
+                    "color": "blue",
+                    "bold": true
+                },
+                {
+                    "text": "800V 高压平台",
+                    "color": "green",
+                    "bold": true
+                },
+                {
+                    "text": "L4 级",
+                    "color": "red",
+                    "bold": true
+                },
+                {
+                    "text": "欧洲市场",
+                    "color": "orange",
+                    "bold": true
+                }
+            ],
+            "conclusion": "季度目标明确，稳步推进量产交付"
+        },
+        {
+            "layout": "title_bullets",
+            "title": "组织与风控保障",
+            "bullets": [
+                "人才引进：全球招募 500 名顶尖 AI 算法工程师",
+                "供应链安全：与上游锂矿企业签订 3 年长期保供协议",
+                "资金储备：完成 C 轮 50 亿元融资，确保现金流健康",
+                "数据合规：建立跨国数据合规中心，满足 GDPR 要求",
+                "售后服务：将客户满意度 NPS 提升至 75 分以上"
+            ],
+            "image_prompt": "business team risk management",
+            "image_type": "search",
+            "image_placement": "right",
+            "highlights": [
+                {
+                    "text": "500 名",
+                    "color": "blue",
+                    "bold": true
+                },
+                {
+                    "text": "3 年",
+                    "color": "green",
+                    "bold": true
+                },
+                {
+                    "text": "50 亿元",
+                    "color": "red",
+                    "bold": true
+                },
+                {
+                    "text": "GDPR",
+                    "color": "purple",
+                    "bold": false
+                },
+                {
+                    "text": "75 分",
+                    "color": "orange",
+                    "bold": true
+                }
+            ],
+            "conclusion": "人才、资金与合规全面保障战略落地",
+            "image_path": "images\\slide_8.jpg"
+        },
+        {
+            "layout": "section",
+            "title": "第三部分",
+            "subtitle": "愿景与展望",
+            "image_prompt": "green future vision renewable energy",
+            "image_type": "search",
+            "image_placement": "background",
+            "image_path": "images\\slide_9.jpg"
+        },
+        {
+            "layout": "quote",
+            "title": "总结",
+            "conclusion": "让每一度电，都驱动绿色未来。"
+        }
+    ]
+}

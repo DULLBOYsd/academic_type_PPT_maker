@@ -1,0 +1,75 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:9acdd448-19e0-50e2-8bc3-140671c8d0bf",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-14T03:02:56Z",
+    "tools": [
+      {
+        "vendor": "Kitware",
+        "name": "CMake",
+        "version": "4.4.4"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:github/aspose-slides-foss/Aspose.Slides-FOSS-for-Cpp@26.9.0",
+      "name": "Aspose.Slides-FOSS-for-Cpp",
+      "version": "26.9.0",
+      "description": "MIT-licensed C++ library for reading, creating and writing PowerPoint .pptx presentations",
+      "licenses": [ { "license": { "id": "MIT" } } ],
+      "purl": "pkg:github/aspose-slides-foss/Aspose.Slides-FOSS-for-Cpp@26.9.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:github/zeux/pugixml@v1.14",
+      "name": "pugixml",
+      "version": "1.14",
+      "description": "XML parser. Linked PUBLIC: it appears in this library's public headers.",
+      "scope": "required",
+      "licenses": [ { "license": { "id": "MIT" } } ],
+      "purl": "pkg:github/zeux/pugixml@v1.14",
+      "externalReferences": [
+        { "type": "vcs", "url": "https://github.com/zeux/pugixml" }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:github/richgel999/miniz@3.0.2",
+      "name": "miniz",
+      "version": "3.0.2",
+      "description": "ZIP archive reader and writer. Used only inside the implementation.",
+      "scope": "required",
+      "licenses": [ { "license": { "id": "MIT" } } ],
+      "purl": "pkg:github/richgel999/miniz@3.0.2",
+      "externalReferences": [
+        { "type": "vcs", "url": "https://github.com/richgel999/miniz" }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:github/google/googletest@v1.15.2",
+      "name": "googletest",
+      "version": "1.15.2",
+      "description": "Test framework. Fetched only when the test suite is built; never part of an installed package.",
+      "scope": "excluded",
+      "licenses": [ { "license": { "id": "BSD-3-Clause" } } ],
+      "purl": "pkg:github/google/googletest@v1.15.2",
+      "externalReferences": [
+        { "type": "vcs", "url": "https://github.com/google/googletest" }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:github/aspose-slides-foss/Aspose.Slides-FOSS-for-Cpp@26.9.0",
+      "dependsOn": [
+        "pkg:github/zeux/pugixml@v1.14",
+        "pkg:github/richgel999/miniz@3.0.2"
+      ]
+    }
+  ]
+}

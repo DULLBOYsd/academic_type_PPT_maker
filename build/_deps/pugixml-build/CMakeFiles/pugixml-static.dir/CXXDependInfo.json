@@ -1,0 +1,50 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Release",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/Users/54751/Desktop/myCproject/PPTmaker/text_to_ppt/build/_deps/pugixml-build",
+	"dir-cur-src" : "C:/Users/54751/Desktop/myCproject/PPTmaker/text_to_ppt/third_party/pugixml-1.16",
+	"dir-top-bld" : "C:/Users/54751/Desktop/myCproject/PPTmaker/text_to_ppt/build",
+	"dir-top-src" : "C:/Users/54751/Desktop/myCproject/PPTmaker/text_to_ppt",
+	"exports" : 
+	[
+		{
+			"cxx-module-info-dir" : "",
+			"destination" : "lib/cmake/pugixml",
+			"export-name" : "static",
+			"export-prefix" : "C:/Users/54751/Desktop/myCproject/PPTmaker/text_to_ppt/build/_deps/pugixml-build/CMakeFiles/Export/be764272e56105fc8ff11fec8314e604",
+			"filesystem-export-name" : "static",
+			"install" : true,
+			"namespace" : "pugixml::"
+		},
+		{
+			"cxx-module-info-dir" : "",
+			"destination" : "C:/Users/54751/Desktop/myCproject/PPTmaker/text_to_ppt/build/_deps/pugixml-build",
+			"export-name" : "static",
+			"export-prefix" : "C:/Users/54751/Desktop/myCproject/PPTmaker/text_to_ppt/build/_deps/pugixml-build",
+			"filesystem-export-name" : "static",
+			"install" : false,
+			"namespace" : "pugixml::"
+		}
+	],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\Users\\54751\\Desktop\\myCproject\\PPTmaker\\text_to_ppt\\third_party\\pugixml-1.16\\src"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/54751/Desktop/myCproject/PPTmaker/text_to_ppt/build/_deps/pugixml-build/CMakeFiles/pugixml-static.dir",
+	"sources" : 
+	{
+		"_deps/pugixml-build/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/54751/Desktop/myCproject/PPTmaker/text_to_ppt/third_party/pugixml-1.16/src/pugixml.cpp"
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/54751/Desktop/myCproject/PPTmaker/text_to_ppt/build/cmake_install.cmake",
+		"C:/Users/54751/Desktop/myCproject/PPTmaker/text_to_ppt/build/third_party/Aspose.Slides-FOSS-for-Cpp-26.9.0/cmake_install.cmake",
+		"C:/Users/54751/Desktop/myCproject/PPTmaker/text_to_ppt/build/_deps/pugixml-build/cmake_install.cmake",
+		"C:/Users/54751/Desktop/myCproject/PPTmaker/text_to_ppt/build/_deps/miniz-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
